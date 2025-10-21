@@ -1,44 +1,44 @@
-# 🧬 Algoritmo Genético para Minería de Datos / Regresión
+# 🧬 Genetic Algorithm for Data Mining / Regression
 
-Proyecto que implementa un **algoritmo genético** para resolver problemas de **minería de datos**, como:
-- Selección de características
-- Ajuste de modelos de regresión lineal/no lineal
-- Búsqueda de hiperparámetros  
+This project implements a **Genetic Algorithm (GA)** to solve **data mining problems**, such as:  
+- Feature selection  
+- Linear and non-linear regression model fitting  
+- Hyperparameter optimization  
 
-Incluye scripts para preparar datos, ejecutar el algoritmo genético y evaluar los resultados.
-
----
-
-## 📂 Contenido
-
-- `README.md` — este archivo  
-- `requirements.txt` — dependencias (si existe)  
-- `data/` — carpeta con datasets de ejemplo (CSV)  
-- `src/` — código fuente (algoritmo genético, evaluación, utilidades)  
-- `notebooks/` — notebooks para experimentación y visualización  
-- `scripts/` — scripts ejecutables (por ejemplo `run_experiment.py`, `train.py`)  
-- `results/` — salida de ejecuciones (modelos, métricas, gráficos)  
-
-> Ajusta la estructura anterior según los nombres reales de tus carpetas/archivos.
+It includes scripts to prepare data, execute the genetic algorithm, and evaluate the results.
 
 ---
 
-## ⚙️ Características
+## 📂 Contents
 
-- Implementación **modular** de un Algoritmo Genético (AG)  
-- Representación de **individuos (cromosomas)** para problemas de regresión y/o selección de atributos  
-- Operadores genéticos: **selección, cruce (crossover), mutación y reemplazo**  
-- Evaluación por métricas: `MSE`, `RMSE`, `R²`, etc.  
-- Soporte para experimentar con distintos parámetros: tamaño de población, número de generaciones, tasa de mutación  
+- `README.md` — this file  
+- `requirements.txt` — dependencies (if available)  
+- `data/` — folder containing example datasets (CSV)  
+- `src/` — source code (genetic algorithm, evaluation, utilities)  
+- `notebooks/` — Jupyter notebooks for experimentation and visualization  
+- `scripts/` — executable scripts (e.g., `run_experiment.py`, `train.py`)  
+- `results/` — output of runs (models, metrics, charts)  
+
+> Adjust the structure above according to your actual folders and filenames.
 
 ---
 
-## 🧩 Requisitos
+## ⚙️ Features
 
-- Python **3.8+** (recomendado)
-- Librerías principales: `numpy`, `pandas`, `scikit-learn`, `matplotlib`, `tqdm`  
+- **Modular implementation** of a Genetic Algorithm (GA)  
+- Representation of **individuals (chromosomes)** for regression and/or feature selection problems  
+- Genetic operators: **selection**, **crossover**, **mutation**, and **replacement**  
+- Evaluation using metrics such as `MSE`, `RMSE`, and `R²`  
+- Support for experimentation with different parameters: population size, number of generations, mutation rate, etc.
 
-Ejemplo de `requirements.txt` mínimo:
+---
+
+## 🧩 Requirements
+
+- Python **3.8+** (recommended)
+- Main libraries: `numpy`, `pandas`, `scikit-learn`, `matplotlib`, `tqdm`  
+
+Example of a minimal `requirements.txt`:
 
 ```txt
 numpy
