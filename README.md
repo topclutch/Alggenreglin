@@ -2,7 +2,7 @@
 
 This project implements a **Genetic Algorithm (GA)** to solve **data mining problems**, such as:  
 - Feature selection  
-- Linear and non-linear regression model fitting  
+- Linear regression model fitting  
 - Hyperparameter optimization  
 
 It includes scripts to prepare data, execute the genetic algorithm, and evaluate the results.
