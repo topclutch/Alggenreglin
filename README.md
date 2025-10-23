@@ -8,19 +8,34 @@ This project implements a **Genetic Algorithm (GA)** to solve **data mining prob
 It includes scripts to prepare data, execute the genetic algorithm, and evaluate the results.
 
 ---
+## 🖼️ Results
+
+> Click any thumbnail to view full-size.
+
+### Results (example)
+[![Results](img/results.png)](img/results.png)  
+
+### Selected Variables (example)
+[![Selected Variables](img/selected_variables.png)](img/selected_variables.png)  
+
+---
 
 ## 📂 Contents
 
-- `README.md` — this file  
-- `requirements.txt` — dependencies (if available)  
-- `data/` — folder containing example datasets (CSV)  
-- `src/` — source code (genetic algorithm, evaluation, utilities)  
-- `notebooks/` — Jupyter notebooks for experimentation and visualization  
-- `scripts/` — executable scripts (e.g., `run_experiment.py`, `train.py`)  
-- `results/` — output of runs (models, metrics, charts)  
+- `Mineria_Datos_AlgGenetico/`
+  - `Algoritmos/`
+  - `__pycache__/`
+  - `inputacion_datos.py`
+  - `regresion_lineal_mult_mineria_datos.py`
+  - `Datasets/`
+    - `AirQuality.csv`
+    - `AirQuality_imputed_iterative.csv`
+    - `Boston-house-price-data.csv`
+  - `img/`
+  - `.gitignore`
+  - `README.md`
 
-> Adjust the structure above according to your actual folders and filenames.
-
+> Repo: https://github.com/topclutch/Alggenreglin/tree/main/Mineria_Datos_AlgGenetico
 ---
 
 ## ⚙️ Features
